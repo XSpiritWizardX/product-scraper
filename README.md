@@ -31,9 +31,9 @@ product-scraper/
 ├── data/
 │ ├── history.json
 │ └── <site-domain>/
-│ ├── all_urls.txt
-│ ├── products.csv
-│ └── blogs.csv
+│   ├── all_urls.txt
+│   ├── products.csv
+│   └── blogs.csv
 ├── run_scraper.py
 ├── requirements.txt
 ├── README.md
