@@ -49,7 +49,7 @@ product-scraper/
 
 ```bash
 
-git clone https://github.com/yourusername/product-scraper.git
+git clone https://github.com/XSpiritWizardX/product-scraper.git
 
 cd product-scraper
 

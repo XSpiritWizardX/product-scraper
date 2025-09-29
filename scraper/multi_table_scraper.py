@@ -6,7 +6,7 @@ import asyncio
 import time
 
 class MultiTableScraper:
-    def __init__(self, delay=5):
+    def __init__(self, delay=1):
         self.delay = delay
         self.data = {}  # Scraped rows per page type
         self.keys = {}  # All keys per page type

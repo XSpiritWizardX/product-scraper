@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 
 class URLDiscoverer:
-    def __init__(self, base_url, delay=5, max_pages=None):
+    def __init__(self, base_url, delay=1, max_pages=None):
         self.base_url = base_url
         self.delay = delay
         self.visited = set()

@@ -6,8 +6,8 @@ from urllib.parse import urlparse
 from scraper.url_discoverer import URLDiscoverer
 from scraper.multi_table_scraper import MultiTableScraper
 
-# Change this to the site you want to scrape
-BASE_URL = "https://stainlesssteelkitchen.com"
+# ______________  Change this to the site you want to scrape  _____________
+BASE_URL = "https://example.com"
 DATA_FOLDER = "data"
 HISTORY_FILE = os.path.join(DATA_FOLDER, "history.json")
 
