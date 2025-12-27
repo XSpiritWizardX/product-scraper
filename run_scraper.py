@@ -7,7 +7,7 @@ from scraper.url_discoverer import URLDiscoverer
 from scraper.multi_table_scraper import MultiTableScraper
 
 # ______________  Change this to the site you want to scrape  _____________
-BASE_URL = "https://example.com"
+BASE_URL = "https://example.com/"
 DATA_FOLDER = "data"
 HISTORY_FILE = os.path.join(DATA_FOLDER, "history.json")
 
@@ -46,7 +46,7 @@ async def main():
     with open(dest_urls, "r") as f:
         urls = [line.strip() for line in f.readlines()]
 
-    scraper = MultiTableScraper()
+    scraper = MultiTableScraper(site_folder=site_folder)
     await scraper.scrape_urls(urls)
     scraper.save_csvs(folder=site_folder)
 

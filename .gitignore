@@ -29,3 +29,6 @@ Thumbs.db
 
 # Playwright cache / browsers
 playwright/.cache
+
+#notes
+notes.md
